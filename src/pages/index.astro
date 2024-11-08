@@ -1,9 +1,11 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-
+import { Image } from "astro:assets";
+import streetLampImage from "../images/StreetLamp.png";
 const pageTitle = "街路灯(開発中)";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
+	<Image src={streetLampImage} alt="街灯の影絵" />
 	<h2>趣味エンジニアの作業記録＆ポートフォリオ</h2>
 </BaseLayout>
