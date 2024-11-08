@@ -1,15 +1,15 @@
 html {
-  background-color: #f1f5f9;
+  background-color: #FFFFF0;
   font-family: sans-serif;
 }
 
 html.dark {
-  background-color: #0d0950;
-  color: #fff;
+  background-color: #000080;
+  color: #FFFFF0;
 }
 
 .dark .nav-links a {
-  color: #fff;
+  color: #FFFFF0;
 }
 
 body {
@@ -29,6 +29,14 @@ h1 {
   font-size: 2.5rem;
 }
 
+a {
+  color: black;
+}
+
+.dark a {
+  color: #FFFFF0;
+}
+
 /* ナビゲーションのスタイル */
 
 .hamburger {
@@ -41,14 +49,14 @@ h1 {
   width: 40px;
   height: 5px;
   margin-bottom: 10px;
-  background-color: #ff9776;
+  background-color: #ffc800;
 }
 
 .nav-links {
   width: 100%;
   top: 5rem;
   left: 48px;
-  background-color: #ff9776;
+  background-color: #ffc800;
   display: none;
   margin: 0;
 }
@@ -65,7 +73,7 @@ h1 {
 
 .nav-links a:hover,
 .nav-links a:focus {
-  background-color: #ff9776;
+  background-color: #ffc800;
 }
 
 .expanded {
