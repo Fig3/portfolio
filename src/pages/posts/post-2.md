@@ -1,13 +1,13 @@
 ---
 layout: "../../layouts/MarkdownPostLayout.astro"
-title: "私の2番目のブログ記事"
-pubDate: 2022-07-08
-description: "Astroを少し学んだら、止まらなくなりました！"
-author: "Astro学習者"
+title: "ポケモン"
+pubDate: 2024-11-08
+description: "ポケモン関連の話"
+author: "くのぎゃく"
 image:
     url: "https://docs.astro.build/assets/arc.webp"
     alt: "Astroのアークのサムネイル。"
-tags: ["astro", "ブログ", "公開学習", "成功"]
+tags: ["ポケモン", "ブログ"]
 ---
 
-Astroを学習し始めて最初の1週間が上手くいったので、もう少し試してみることにしました。小さなコンポーネントを書いてメモリーからインポートしました！
+ポケモンについての話をここに書く
