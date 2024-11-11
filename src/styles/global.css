@@ -1,18 +1,18 @@
 html {
-  background-color: #FFFFF0;
   font-family: sans-serif;
+  background-color: #FFFFF0;
 }
 
 html.dark {
-  background-color: #14142B;
   color: #FFFFF0;
+  background-color: #14142B;
 }
 
 body {
-  margin: 0 auto;
   width: 100%;
   max-width: 80ch;
   padding: 1rem;
+  margin: 0 auto;
   line-height: 1.5;
 }
 
@@ -39,11 +39,11 @@ a {
 }
 
 .tag {
-  margin: 0.5em;
-  border: solid #14142b;
   padding: 0.5em 1em;
+  margin: 0.5em;
   font-weight: bold;
   background-color: #fffff0;
+  border: solid #14142b;
 }
 
 .tag:hover,
@@ -92,26 +92,26 @@ footer a:focus {
   display: block;
   width: 40px;
   height: 5px;
-  background-color: #f6c445;
   margin-bottom: 10px;
+  background-color: #f6c445;
 }
 
 .nav-links {
-  width: 100%;
   top: 5rem;
   left: 48px;
-  background-color: #f6c445;
   display: none;
+  width: 100%;
   margin: 0;
+  background-color: #f6c445;
 }
 
 .nav-links a {
   display: block;
-  text-align: center;
   padding: 10px 0;
-  text-decoration: none;
   font-size: 1.2rem;
   font-weight: bold;
+  text-align: center;
+  text-decoration: none;
   text-transform: uppercase;
 }
 
@@ -128,10 +128,10 @@ footer a:focus {
   display: unset;
 }
 
-@media screen and (min-width: 636px) {
+@media screen and (width >= 636px) {
   .nav-links {
-    display: block;
     position: static;
+    display: block;
     width: auto;
     background: none;
   }
