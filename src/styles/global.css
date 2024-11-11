@@ -4,7 +4,7 @@ html {
 }
 
 html.dark {
-  background-color: #000080;
+  background-color: #14142B;
   color: #FFFFF0;
 }
 
@@ -26,11 +26,37 @@ h1 {
 }
 
 a {
-  color: black;
+  color: #14142B;
 }
 
 .dark a {
   color: #FFFFF0;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag {
+  margin: 0.5em;
+  border: solid #14142b;
+  padding: 0.5em 1em;
+  font-weight: bold;
+  background-color: #fffff0;
+}
+
+.tag:hover,
+.tag:focus {
+  background-color: #f6c445;
+}
+
+.dark .tag {
+  border: solid black;
+}
+
+.dark .tag a {
+  color: #14142b;
 }
 
 .dark .image-streetlamp {
@@ -48,15 +74,15 @@ a {
   display: block;
   width: 40px;
   height: 5px;
+  background-color: #f6c445;
   margin-bottom: 10px;
-  background-color: #ffc800;
 }
 
 .nav-links {
   width: 100%;
   top: 5rem;
   left: 48px;
-  background-color: #ffc800;
+  background-color: #f6c445;
   display: none;
   margin: 0;
 }
@@ -73,7 +99,7 @@ a {
 
 .nav-links a:hover,
 .nav-links a:focus {
-  background-color: #ffc800;
+  background-color: #f6c445;
 }
 
 .dark .nav-links a {
@@ -86,7 +112,6 @@ a {
 
 @media screen and (min-width: 636px) {
   .nav-links {
-    margin-left: 5em;
     display: block;
     position: static;
     width: auto;
