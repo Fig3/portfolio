@@ -21,6 +21,9 @@ body {
 }
 
 #themetoggle {
+  display: block;
+  margin-right: 10px;
+  margin-left: auto;
   background: none;
   border: 0;
 }
@@ -150,6 +153,10 @@ footer a:focus {
 }
 
 @media screen and (width >= 636px) {
+  #themetoggle {
+    margin-right: 100px;
+  }
+
   .nav-links {
     position: static;
     display: block;
