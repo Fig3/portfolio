@@ -70,28 +70,29 @@ a {
 }
 
 .tag {
-  padding: 0.5em 1em;
-  margin: 0.5em;
+  padding: 0.2em 0.5em;
+  margin: 0.3em;
   font-weight: bold;
   background-color: #fffff0;
   border: solid #14142b;
 }
 
-.tag:hover,
-.tag:focus {
-  background-color: #f6c445;
-}
-
 .dark .tag {
-  border: solid black;
+  background-color: #14142b;
+  border: solid #fffff0;
 }
 
 .dark .tag a {
-  color: #14142b;
+  color: #fffff0;
 }
 
 .dark .image-streetlamp {
   filter: invert(1);
+}
+
+.tag:hover,
+.tag:focus {
+  background-color: #f6c445;
 }
 
 footer {
