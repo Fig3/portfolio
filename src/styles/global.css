@@ -20,6 +20,27 @@ body {
   box-sizing: border-box;
 }
 
+#themetoggle {
+  background: none;
+  border: 0;
+}
+
+.sun {
+  fill: black;
+}
+
+.moon {
+  fill: transparent;
+}
+
+.dark .sun {
+  fill: transparent;
+}
+
+.dark .moon {
+  fill: white;
+}
+
 h1 {
   margin: 1rem 0;
   font-size: 2.5rem;
