@@ -1,0 +1,21 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const pageTitle = "CATEGORY";
+const allPosts = await Astro.glob("../blog/*.md");
+const category = [
+  ...new Set(allPosts.map((post) => post.frontmatter.category).flat()),
+];
+---
+
+<BaseLayout pageTitle={pageTitle}>
+  <div class="categories">
+    {
+      category.map((category) => (
+        <h2 class="category">
+          <a href={`/category/${category}`}>{category}</a>
+        </h2>
+      ))
+    }
+  </div>
+</BaseLayout>

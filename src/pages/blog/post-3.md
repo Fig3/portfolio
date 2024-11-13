@@ -7,6 +7,7 @@ author: "くのぎゃく"
 image:
     url: "https://docs.astro.build/assets/rays.webp"
     alt: "Astroの光線のサムネイル。"
+category: "3D"
 tags: ["3DCG", "モデリング", "Unity", "Blender"]
 ---
 

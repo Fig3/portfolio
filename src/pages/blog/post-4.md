@@ -7,6 +7,7 @@ author: "くのぎゃく"
 image:
     url: "https://docs.astro.build/default-og-image.png"
     alt: "惑星と星のイラストの中にastroという単語があります。"
+category: "NOTE"
 tags: ["Astro", "ブログ", "公開学習", "チュートリアル"]
 ---
 ## post-1.md

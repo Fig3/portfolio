@@ -7,6 +7,7 @@ author: "くのぎゃく"
 image:
     url: "https://docs.astro.build/assets/arc.webp"
     alt: "Astroのアークのサムネイル。"
+category: "GAME"
 tags: ["ポケモン", "ブログ"]
 ---
 

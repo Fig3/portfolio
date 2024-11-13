@@ -64,6 +64,26 @@ a {
   color: #FFFFF0;
 }
 
+li a:hover,
+li a:focus {
+  color: #f6c445;
+}
+
+.categories {
+  display: inline;
+}
+
+.category {
+  padding: 0.2em 0.5em;
+  margin: 0.3em;
+  font-weight: bold;
+}
+
+.category a:hover,
+.category a:focus {
+  color: #f6c445;
+}
+
 .tags {
   display: flex;
   flex-wrap: wrap;

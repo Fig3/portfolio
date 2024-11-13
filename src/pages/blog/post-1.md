@@ -7,6 +7,7 @@ author: "くのぎゃく"
 image:
     url: "https://docs.astro.build/assets/full-logo-light.png"
     alt: "Astroのロゴ。"
+category: "WEB"
 tags: ["Astro", "個人サイト", "ポートフォリオ", "ブログ", "公開学習"]
 ---
 
