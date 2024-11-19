@@ -9,11 +9,11 @@ const category = [
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-  <div class="categories">
+  <div>
     {
       category.map((category) => (
-        <h2 class="category">
-          <a href={`/category/${category}`}>{category}</a>
+        <h2 class="text-xl hover:text-[#f6c445] focus:text-[#f6c445]">
+          <a href={`/category/${category}/`}>/{category}/</a>
         </h2>
       ))
     }
