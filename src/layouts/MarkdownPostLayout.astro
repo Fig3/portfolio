@@ -11,11 +11,11 @@ const { frontmatter } = Astro.props;
   <p>カテゴリ: {frontmatter.category}</p>
   <img src={frontmatter.image.url} width="300" alt={frontmatter.image.alt} />
   <slot />
-  <div class="tags">
+  <div class="flex flex-wrap">
     {
       frontmatter.tags.map((tag) => (
-        <p class="tag">
-          <a href={`/tags/${tag}`}>{tag}</a>
+        <p class="px-1 m-1 bg-[#fffff0] border border-[#14142b] dark:bg-[#14142b] dark:border-[#fffff0] hover:bg-[#f6c445] focus:bg-[#f6c445] dark:hover:bg-[#f6c445] dark:focus:bg-[#f6c445]">
+          <a href={`/tags/${tag}/`}>{tag}</a>
         </p>
       ))
     }
