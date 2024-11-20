@@ -13,7 +13,7 @@ const { frontmatter } = Astro.props;
   <div class="prose dark:prose-invert">
     <slot />
   </div>
-  <div class="flex flex-wrap">
+  <div class="mt-4 flex flex-wrap">
     {
       frontmatter.tags.map((tag) => (
         <p class="px-1 m-1 bg-[#fffff0] border border-[#14142b] dark:bg-[#14142b] dark:border-[#fffff0] hover:bg-[#f6c445] focus:bg-[#f6c445] dark:hover:bg-[#f6c445] dark:focus:bg-[#f6c445]">
