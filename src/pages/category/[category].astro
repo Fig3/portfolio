@@ -21,7 +21,7 @@ export async function getStaticPaths() {
 
 const { category } = Astro.params;
 const { posts } = Astro.props;
-const title = "CATEGORY/" + category + "/";
+const title = category;
 ---
 
 <BaseLayout pageTitle={title}>
