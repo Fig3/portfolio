@@ -4,7 +4,13 @@ const { frontmatter } = Astro.props;
 ---
 
 <BaseLayout pageTitle={frontmatter.title}>
-  <div class="mt-2">CATEGORY &gt; {frontmatter.category}</div>
+  <div class="mt-2">
+    <a
+      class="block hover:text-[#f6c445] focus:text-[#f6c445] md:inline-block"
+      href=`/category/${frontmatter.category}`
+      >CATEGORY &gt; {frontmatter.category}</a
+    >
+  </div>
   <div class="mt-2">
     公開: {frontmatter.pubDate.toString().slice(0, 10)} &emsp; 更新: {
       frontmatter.lastUpdatedDate.toString().slice(0, 10)
