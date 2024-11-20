@@ -2,6 +2,7 @@
 layout: "../../layouts/MarkdownPostLayout.astro"
 title: "3DCG"
 pubDate: 2024-11-08
+lastUpdatedDate: 2024-11-08
 description: "3DCG関連の話"
 author: "くのぎゃく"
 image:

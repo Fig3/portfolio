@@ -2,6 +2,7 @@
 layout: "../../layouts/MarkdownPostLayout.astro"
 title: "ポケモン"
 pubDate: 2024-11-08
+lastUpdatedDate: 2024-11-08
 description: "ポケモン関連の話"
 author: "くのぎゃく"
 image:

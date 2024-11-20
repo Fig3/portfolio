@@ -2,6 +2,7 @@
 layout: "../../layouts/MarkdownPostLayout.astro"
 title: "チュートリアル記事まとめ"
 pubDate: 2024-11-08
+lastUpdatedDate: 2024-11-08
 description: "Astroチュートリアルで作成した記事を記録として一時的に残しています。マークダウン記法の確認等に使用します。"
 author: "くのぎゃく"
 image:
